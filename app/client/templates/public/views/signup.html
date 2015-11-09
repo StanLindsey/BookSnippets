@@ -1,0 +1,20 @@
+<template name="signup">
+  <div class="ui grid">
+    <div class="ui six wide column">
+      <h4 >Sign Up</h4>
+      <form id="signup" class="ui form">
+        <div class="field">
+          <label>Email Address</label>
+          <input type="email" name="emailAddress" placeholder="Email Address">
+        </div>
+        <div class="field">
+          <label>Password</label>
+          <input type="password" name="password" placeholder="Password">
+        </div>
+        <button class="ui button" type="submit">Submit</button>
+        <span>Already have an account? <a href="{{pathFor 'login'}}">Log In</a>.</span>
+      </form>
+    </div>
+  </div>
+
+</template>

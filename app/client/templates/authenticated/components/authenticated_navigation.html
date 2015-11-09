@@ -1,0 +1,17 @@
+<template name="authenticatedNavigation">
+
+  <span class="item {{currentRoute 'index'}}">
+      <a href="{{pathFor 'index'}}">Index</a>
+    </span>
+    <span class="item {{currentRoute 'dashboard'}}">
+      <a href="{{pathFor 'dashboard'}}">Dashboard</a>
+    </span>
+    <div class="ui dropdown item">
+    {{currentUser.emails.[0].address}}
+    <i class="dropdown icon"></i>
+    <div class="menu">
+      <a class="item logout">Logout</a>
+    </div>
+  </div>
+
+</template>

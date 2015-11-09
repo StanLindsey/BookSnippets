@@ -1,0 +1,25 @@
+<template name="login">
+  <div class="ui grid">
+    <div class="ui six wide column">
+      <h4 >Login</h4>
+      <form id="login" class="ui form">
+        <div class="field">
+          <label>Email Address</label>
+          <input type="email" name="emailAddress" placeholder="Email Address">
+        </div>
+        <div class="field">
+
+        <div class="ui three column grid">
+              <div class="left floated column"><label>Password</label> </div>
+              <div class="right floated column"><a class="" href="{{pathFor 'recover-password'}}">Forgot Password?</a></div>
+            </div>
+
+          <input type="password" name="password" placeholder="Password">
+        </div>
+        <button class="ui button" type="submit">Submit</button>
+        <span>Don't have an account? <a href="{{pathFor 'signup'}}">Sign Up</a>.</span>
+      </form>
+    </div>
+  </div>
+
+</template>
