@@ -1,10 +1,10 @@
 {
-  "name": "application-name",
+  "name": "slappedUp App",
   "version": "1.0.0",
-  "description": "Application description.",
+  "description": "Just an app we slapped together one afternoon.",
   "scripts": {
-    "start": "meteor --settings settings-development.json",
-    "staging": "meteor deploy staging.meteor.com --settings settings-development.json",
-    "production": "meteor deploy production.meteor.com --settings settings-production.json"
+    "start": "meteor --settings settings_dev.json",
+    "staging": "meteor deploy staging.meteor.com --settings settings_dev.json",
+    "production": "meteor deploy production.meteor.com --settings settings-_prod.json"
   }
 }
