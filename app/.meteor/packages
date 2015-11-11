@@ -1,4 +1,4 @@
- # Meteor packages used by this project, one per line.
+# Meteor packages used by this project, one per line.
 #
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
@@ -42,5 +42,8 @@ fortawesome:fontawesome
 #meteorhacks:kadira
 #aldeed:autoform
 #okgrow:analytics
-#underscore
-underscore
+#percolate:synced-cron
+#aldeed:autoform
+#atb33:collection-hooks
+#dburles:collection-helpers
+#aldeed:autoform
