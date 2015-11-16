@@ -5,6 +5,6 @@
   "scripts": {
     "start": "meteor --settings settings_dev.json",
     "staging": "meteor deploy staging.meteor.com --settings settings_dev.json",
-    "production": "meteor deploy production.meteor.com --settings settings-_prod.json"
+    "production": "meteor deploy production.meteor.com --settings settings_prod.json"
   }
 }

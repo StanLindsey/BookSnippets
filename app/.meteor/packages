@@ -13,13 +13,11 @@ themeteorchef:jquery-validation
 browser-policy
 meteorhacks:npm
 
-
 themeteorchef:bert
 meteorhacks:ssr
 standard-minifiers
 
 
-npm-container
 ecmascript
 digilord:faker
 kadira:flow-router
