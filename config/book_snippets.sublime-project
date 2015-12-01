@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				"app/.meteor"
+			],
+			"path": "/Users/Stan/Google Drive/Projects/book_snippets"
+		}
+	]
+}

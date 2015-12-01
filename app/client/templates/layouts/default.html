@@ -1,11 +1,11 @@
 <template name="default">
-	{{>bertAlert}}
-  <div class="ui container">
-    <div class="ui grid">
-     {{>header}}
-     <div class="ui sixteen wide column">
-     {{> Template.dynamic template=yield}}
-     </div>
-   </div>
- </div>
+    {{>bertAlert}} {{>header}}
+    <div class="ui grid container">
+        <div class="ui sixteen wide column centered grid">
+            <div class="ui sixteen wide column">
+                {{> Template.dynamic template=yield}}
+            </div>
+        </div>
+    </div>
+    {{> footer}}
 </template>

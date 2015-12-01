@@ -1,0 +1,21 @@
+<template name="allBooks">
+    {{#if Template.subscriptionsReady}}
+    <h1>All Books</h1>
+    <table class="ui celled padded table">
+        {{#each books}}
+        <tr>
+            <td>
+                <h4>{{title}}</h4>
+                <span>By {{author}}</span>
+            </td>
+            <td>
+                {{shortDescription}}
+            </td>
+            <td>
+                <button class="ui icon button">Edit</button>
+            </td>
+        </tr>
+        {{/each}}
+    </table>
+    {{/if}}
+</template>

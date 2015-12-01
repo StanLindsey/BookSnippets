@@ -1,6 +1,6 @@
 const publicRedirect = () => {
   if ( Meteor.userId() ) {
-    FlowRouter.go( 'index' );
+    FlowRouter.go( 'home' );
   }
 };
 
@@ -9,10 +9,10 @@ const publicRoutes = FlowRouter.group({
   triggersEnter: [ publicRedirect ]
 });
 
-publicRoutes.route( '/signup', {
-  name: 'signup',
+publicRoutes.route( '/', {
+  name: 'home',
   action() {
-    BlazeLayout.render( 'default', { yield: 'signup' } );
+    BlazeLayout.render( 'default', { yield: 'home' } );
   }
 });
 

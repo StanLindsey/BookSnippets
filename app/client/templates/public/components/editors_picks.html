@@ -1,0 +1,7 @@
+<template name="editorsPicks">
+    <div class="ui centered cards row">
+        {{#if Template.subscriptionsReady}} {{#each editorsPicks}}
+            {{> bookCardBig}}
+        {{/each}} {{/if}}
+    </div>
+</template>

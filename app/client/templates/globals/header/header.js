@@ -21,4 +21,5 @@ Template.header.events({
 
 Template.authenticatedNavigation.rendered = function() {
  this.$(".dropdown").dropdown();
-}
+};
+
