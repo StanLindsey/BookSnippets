@@ -1,0 +1,36 @@
+<template name="allBooks">
+  {{#if Template.subscriptionsReady}}
+      <table class="ui bottom attached segment compact striped single line table">
+        <thead>
+          <tr>
+            <th>Book</th>
+            <th>Categories</th>
+            <th>Live</th>
+            <th>View</th>
+            <th>Edit</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each books}}
+            <tr>
+              <td>
+                <span>{{title}} by {{author}}</span>
+              </td>
+              <td>
+                Horror, Adventure, Romance
+              </td>
+              <td>
+                Y
+              </td>
+              <td>
+                <button class="ui icon button">View</button>
+              </td>
+              <td>
+                <button class="ui icon button">Edit</button>
+              </td>
+            </tr>
+          {{/each}}
+        </tbody>
+      </table>
+  {{/if}}
+</template>

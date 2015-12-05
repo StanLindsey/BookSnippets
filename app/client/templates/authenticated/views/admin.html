@@ -1,0 +1,19 @@
+<template name="admin">
+    <p>Welcome to Book Snippets Admin! </p>
+    <p>This is a work in progress so not all features are available.</p>
+     <div class="ui top attached tabular menu">
+      <a class="active item">Books</a>
+      <a class="item">Authors</a>
+      <a class="item">Categories</a>
+      <a class="item">Users</a>
+      <div class="right menu">
+        <div class="item">
+          <div class="ui transparent icon input">
+            <input type="text" placeholder="Search...">
+            <i class="search link icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{> allBooks}}
+</template>

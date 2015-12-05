@@ -59,6 +59,10 @@ let CollectionSchema = new SimpleSchema({
     type: Boolean,
     label: "Is on front page?",
     optional: true
+  },
+  "live": {
+    type: Boolean,
+    label: "Is the book live on the site yet"
   }
 
 
