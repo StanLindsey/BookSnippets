@@ -3,7 +3,7 @@
       <a href="{{pathFor 'home'}}">Home</a>
     </span>
     <span class="item {{currentRoute 'admin'}}">
-      <a href="{{pathFor 'admin'}}">admin</a>
+      <a href="{{pathFor 'admin'}}">Admin</a>
     </span>
     <span class="item {{currentRoute 'signup'}}">
       <a href="{{pathFor 'signup'}}">signup</a>
@@ -15,4 +15,7 @@
             <a class="item logout">Logout</a>
         </div>
     </div>
+    <span class="item {{currentRoute 'notifications'}}">
+      <a href="{{pathFor 'notifications'}}"><i class="mail link icon"></i></a>
+    </span>
 </template>
