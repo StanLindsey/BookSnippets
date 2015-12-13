@@ -40,9 +40,9 @@ let _handleSignup = ( template ) => {
 
   Accounts.createUser( user, ( error ) => {
     if ( error ) {
-      Bert.alert( error.reason, 'danger' );
+      Bert.alert( error.reason, 'danger', 'growl-bottom-right' );
     } else {
-      Bert.alert( 'Welcome!', 'success' );
+      Bert.alert( 'Welcome!', 'success', 'growl-bottom-right' );
     }
   });
 };
