@@ -1,30 +1,33 @@
 <template name="bookCardBig">
-    <div class="ui card book-card-big" style="overflow:hidden">
-        <div class="image">
-            <a class="ui left corner label">
-                <i class="bookmark icon"></i>
-            </a>
-            <img alt="" src="{{frontCoverURL}}">
-        </div>
-        <div class="content">
-            <!-- <button class="ui right floated icon circular basic button"><i class="empty heart icon"></i></button> -->
-            <a class="header">{{title}}</a>
-            <div class="meta">
-                <span>By {{author}}</span>
-            </div>
-            <div class="description">
-                {{shortDescription}}
-            </div>
-        </div>
-        <div class="extra content">
-            <audio controls style="width:100%">
-                <source src="{{snippetURL}}" type="audio/mpeg"> Your browser does not support the audio element.
-            </audio>
-        </div>
-        <div class="bottom attached ui buttons">
+  <div class="ui card book-card-big" style="overflow:hidden">
+    <div class="image">
+      <a class="ui left corner label">
+        <i class="bookmark icon"></i>
+      </a>
+      <img alt="" src="{{frontCoverURL}}">
+    </div>
+    <div class="content">
+      <!-- <button class="ui right floated icon circular basic button"><i class="empty heart icon"></i></button> -->
+      <a class="header">{{title}}</a>
+      <div class="meta">
+        <span>By {{author}}</span>
+      </div>
+      <div class="description">
+        {{shortDescription}}
+      </div>
+    </div>
+    <div class="extra content">
+      <audio controls style="width:100%">
+        <source src="{{snippetURL}}" type="audio/mpeg"> Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="bottom attached ui buttons">
+      <button class="ui icon button">More Info</button>
+      <!--
             <button class="ui icon button"><i class=" download icon"></i> Download</button>
             <button class="ui icon button"><i class="add to cart icon"></i> Purchase</button>
             <button class="ui icon button"><i class="ellipsis horizontal icon"></i></button>
-        </div>
+        -->
     </div>
+  </div>
 </template>

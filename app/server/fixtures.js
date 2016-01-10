@@ -19,8 +19,9 @@ if (Books.find().count() === 0) {
     addedDate: new Date(),
     frontCoverURL: "covers/splidge.jpg",
     snippetURL: "snippets/unreliable-histories.mp3",
-    amazonURL: "http://www.amazon.co.uk/Splidge-Cragflinger-The-Royal-Tournament-ebook/dp/B00MNSFUSE",
-    editorsPicks: true
+    amazonUKURL: "http://www.amazon.co.uk/Splidge-Cragflinger-The-Royal-Tournament-ebook/dp/B00MNSFUSE",
+    editorsPicks: true,
+    live: true
   });
 
   Books.insert({
@@ -31,8 +32,9 @@ if (Books.find().count() === 0) {
     addedDate: new Date(),
     frontCoverURL: "covers/splidge.jpg",
     snippetURL: "snippets/unreliable-histories.mp3",
-    amazonURL: "http://www.amazon.co.uk/Splidge-Cragflinger-The-Royal-Tournament-ebook/dp/B00MNSFUSE",
-    editorsPicks: true
+    amazonUKURL: "http://www.amazon.co.uk/Splidge-Cragflinger-The-Royal-Tournament-ebook/dp/B00MNSFUSE",
+    editorsPicks: true,
+    live: true
   });
 
   Books.insert({
@@ -43,8 +45,9 @@ if (Books.find().count() === 0) {
     addedDate: new Date(),
     frontCoverURL: "covers/splidge.jpg",
     snippetURL: "snippets/unreliable-histories.mp3",
-    amazonURL: "http://www.amazon.co.uk/Splidge-Cragflinger-The-Royal-Tournament-ebook/dp/B00MNSFUSE",
-    editorsPicks: true
+    amazonUKURL: "http://www.amazon.co.uk/Splidge-Cragflinger-The-Royal-Tournament-ebook/dp/B00MNSFUSE",
+    editorsPicks: true,
+    live: true
   });
 
   Books.insert({
@@ -55,8 +58,9 @@ if (Books.find().count() === 0) {
     addedDate: new Date(),
     frontCoverURL: "covers/splidge.jpg",
     snippetURL: "snippets/unreliable-histories.mp3",
-    amazonURL: "http://www.amazon.co.uk/Splidge-Cragflinger-The-Royal-Tournament-ebook/dp/B00MNSFUSE",
-    editorsPicks: true
+    amazonUKURL: "http://www.amazon.co.uk/Splidge-Cragflinger-The-Royal-Tournament-ebook/dp/B00MNSFUSE",
+    editorsPicks: true,
+    live: true
   });
 
   Books.insert({
@@ -67,8 +71,9 @@ if (Books.find().count() === 0) {
     addedDate: new Date(),
     frontCoverURL: "covers/splidge.jpg",
     snippetURL: "snippets/unreliable-histories.mp3",
-    amazonURL: "http://www.amazon.co.uk/Splidge-Cragflinger-The-Royal-Tournament-ebook/dp/B00MNSFUSE",
-    editorsPicks: false
+    amazonUKURL: "http://www.amazon.co.uk/Splidge-Cragflinger-The-Royal-Tournament-ebook/dp/B00MNSFUSE",
+    editorsPicks: false,
+    live: true
   });
 
 }

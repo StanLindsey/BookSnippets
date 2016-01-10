@@ -1,0 +1,23 @@
+<template name="adminNav">
+  <div class="ui top attached tabular menu">
+    <a class="{{booksIsActive}} item" href="/admin"><i class="book link icon"></i>Books</a>
+    <a class="{{authorsIsActive}} item" href="/admin/authors"><i class="align left link icon"></i>Authors</a>
+    <a class="{{categoriesIsActive}} item" href="/admin/categories"><i class="tag link icon"></i>Categories</a>
+    <!--
+    <a class="item"><i class="comment link icon"></i>Narrators</a>
+    <a class="item"><i class="user link icon"></i>Users</a>
+    <a class="item"><i class="unmute link icon"></i>Podcasts</a>
+    -->
+    <div class="ui item vertical divider">
+    </div>
+    <div class="right menu">
+      <a class="item" href="{{createURL}}"><i class="add link icon"></i>{{createNew}}</a>
+      <div class="item">
+        <div class="ui transparent icon input">
+          <input type="text" placeholder="Search...">
+          <i class="search link icon"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

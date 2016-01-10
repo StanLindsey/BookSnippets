@@ -1,24 +1,52 @@
 const authenticatedRedirect = () => {
   if ( !Meteor.loggingIn() && !Meteor.userId() ) {
-    FlowRouter.go( 'login' );
+    FlowRouter.go( "login" );
   }
 };
 
 const authenticatedRoutes = FlowRouter.group({
-  name: 'authenticated',
+  name: "authenticated",
   triggersEnter: [ authenticatedRedirect ]
 });
 
-authenticatedRoutes.route( '/admin', {
-  name: 'admin',
+authenticatedRoutes.route( "/admin", {
+  name: "admin",
   action() {
-    BlazeLayout.render( 'default', { yield: 'admin' } );
+    BlazeLayout.render( "default", { yield: "admin" } );
   }
 });
 
-authenticatedRoutes.route( '/signup', {
-  name: 'signup',
+authenticatedRoutes.route( "/admin/authors", {
+  name: "adminAuthors",
   action() {
-    BlazeLayout.render( 'default', { yield: 'signup' } );
+    BlazeLayout.render( "default", { yield: "adminAuthors" } );
+  }
+});
+
+authenticatedRoutes.route( "/admin/categories", {
+  name: "adminCategories",
+  action() {
+    BlazeLayout.render( "default", { yield: "adminCategories" } );
+  }
+});
+
+authenticatedRoutes.route( "/signup", {
+  name: "signup",
+  action() {
+    BlazeLayout.render( "default", { yield: "signup" } );
+  }
+});
+
+authenticatedRoutes.route( "/admin/create/book", {
+  name: "adminCreateBook",
+  action() {
+    BlazeLayout.render( "default", { yield: "adminCreateBook" } );
+  }
+});
+
+authenticatedRoutes.route( "/admin/categories", {
+  name: "adminCategories",
+  action() {
+    BlazeLayout.render( "default", { yield: "adminCategories" } );
   }
 });

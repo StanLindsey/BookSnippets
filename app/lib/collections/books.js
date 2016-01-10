@@ -19,7 +19,8 @@ let CollectionSchema = new SimpleSchema({
   },
   "shortDescription": {
     type: String,
-    label: "Book short description"
+    label: "Book short description",
+    optional: true
   },
   "description": {
     type: String,
@@ -28,7 +29,8 @@ let CollectionSchema = new SimpleSchema({
   },
   "author": {
     type: String,
-    label: "Author Name"
+    label: "Author Name",
+    optional: true
   },
   "authorID": {
     type: String,
@@ -38,27 +40,31 @@ let CollectionSchema = new SimpleSchema({
   "publishDate": {
     type: Date,
     label: "Date Book published",
+    optional: true
   },
   "addedDate": {
     type: Date,
     label: "Date Book Added",
+    optional: true
   },
   "frontCoverURL": {
     type: String,
-    label: "URL for front cover image"
+    label: "URL for front cover image",
+    optional: true
   },
   "snippetURL": {
     type: String,
-    label: "URL for snippet audio"
+    label: "URL for snippet audio",
+    optional: true
   },
-  "amazonURL": {
+  "amazonUKURL": {
     type: String,
-    label: "Amazon purchase URL"
+    label: "Amazon purchase URL",
+    optional: true
   },
   "editorsPicks": {
     type: Boolean,
-    label: "Is on front page?",
-    optional: true
+    label: "Is on front page?"
   },
   "live": {
     type: Boolean,
