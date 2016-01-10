@@ -1,3 +1,29 @@
 <template name="adminAllAuthors">
-Authors, test!
+  {{#if Template.subscriptionsReady}}
+      <table class="ui bottom center aligned attached segment compact striped single line selectable table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>View</th>
+            <th>Edit</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each authors}}
+            <tr>
+              <td>
+                <span>{{firstName}} {{Last Name}}</span>
+              </td>
+              <td>
+                <button class="ui icon button">View</button>
+              </td>
+              <td>
+                <button class="ui icon button">Edit</button>
+              </td>
+            </tr>
+          {{/each}}
+        </tbody>
+      </table>
+  {{/if}}
+
 </template>

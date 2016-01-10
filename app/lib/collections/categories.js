@@ -28,7 +28,7 @@ let CollectionSchema = new SimpleSchema({
     label: "Is it in the navigation menu?"
   },
 
-  "frontPage": {
+  "frontpage": {
     type: Boolean,
     label: "Is it on the front page?"
   },

@@ -1,0 +1,28 @@
+<template name="adminCreateAuthor">
+  <h2>Create New Author</h2>
+  <div class="ui grid">
+    <div class="eight wide column">
+      <form class="ui form" name="adminCreateAuthorForm">
+        <div class="field">
+          <label>First Name</label>
+          <input type="text" name="author-first-name" placeholder="First Name">
+        </div>
+        <div class="field">
+          <label>Last Name</label>
+          <input type="text" name="author-last-name" placeholder="Last Name">
+        </div>
+        <div class="field">
+          <label>Bio</label>
+          <textarea name="bio" rows="10"></textarea>
+        </div>
+        <div class="field">
+          <label>Author Image URL</label>
+          <input type="text" name="image-url" placeholder="Image URL">
+        </div>
+
+        <input class="ui submit button" type="submit" value="Submit">
+
+      </form>
+    </div>
+  </div>
+</template>

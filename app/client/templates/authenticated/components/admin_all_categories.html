@@ -1,3 +1,45 @@
 <template name="adminAllCategories">
-Categories, test!
+  {{#if Template.subscriptionsReady}}
+      <table class="ui bottom center aligned attached segment compact striped single line selectable table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Nav</th>
+            <th>Frontpage</th>
+            <th>Live</th>
+            <th>View</th>
+            <th>Edit</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each categories}}
+            <tr>
+              <td>
+                <span>{{title}}</span>
+              </td>
+              <td>
+                {{description}}
+              </td>
+              <td>
+                {{inNav}}
+              </td>
+              <td>
+                {{frontpage}}
+              </td>
+              <td>
+                {{live}}
+              </td>
+              <td>
+                <button class="ui icon button">View</button>
+              </td>
+              <td>
+                <button class="ui icon button">Edit</button>
+              </td>
+            </tr>
+          {{/each}}
+        </tbody>
+      </table>
+  {{/if}}
+
 </template>
