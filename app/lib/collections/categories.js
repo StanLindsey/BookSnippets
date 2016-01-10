@@ -31,6 +31,11 @@ let CollectionSchema = new SimpleSchema({
   "frontPage": {
     type: Boolean,
     label: "Is it on the front page?"
+  },
+
+  "live": {
+    type: Boolean,
+    label: "Is the route accessible?"
   }
 
 });

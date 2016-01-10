@@ -77,3 +77,99 @@ if (Books.find().count() === 0) {
   });
 
 }
+
+Categories.insert({
+    title: "Adventure",
+    description: "Adventure titles full of adventure",
+    inNav: true,
+    frontpage: true,
+    live: true
+});
+
+Categories.insert({
+    title: "Horror",
+    description: "Horror titles full of horror",
+    inNav: true,
+    frontpage: true,
+    live: true
+});
+
+Categories.insert({
+    title: "Thriller",
+    description: "Thriller titles full of Thriller",
+    inNav: true,
+    frontpage: true,
+    live: true
+});
+
+Categories.insert({
+    title: "Romance",
+    description: "Romance",
+    inNav: true,
+    frontpage: true,
+    live: true
+});
+
+Categories.insert({
+    title: "Drama",
+    description: "Drama titles full of Drama",
+    inNav: true,
+    frontpage: true,
+    live: true
+});
+
+Categories.insert({
+    title: "Historical",
+    description: "Historical titles full of history",
+    inNav: true,
+    frontpage: true,
+    live: true
+});
+
+Categories.insert({
+    title: "Fantasy",
+    description: "Fantasy titles full of Fantasy",
+    inNav: true,
+    frontpage: true,
+    live: true
+});
+
+Categories.insert({
+    title: "Crime",
+    description: "Crime titles full of crime",
+    inNav: true,
+    frontpage: true,
+    live: true
+});
+
+Categories.insert({
+    title: "Humour",
+    description: "Humour titles full of Humour",
+    inNav: true,
+    frontpage: true,
+    live: true
+});
+
+Categories.insert({
+    title: "Ghost",
+    description: "ghost titles full of ghost",
+    inNav: true,
+    frontpage: true,
+    live: true
+});
+
+Categories.insert({
+    title: "Science-Fiction",
+    description: "Science-Fiction titles full of Science-Fiction",
+    inNav: true,
+    frontpage: true,
+    live: true
+});
+
+Categories.insert({
+    title: "Childrens",
+    description: "Childrens titles full of Childrens",
+    inNav: true,
+    frontpage: true,
+    live: true
+});
