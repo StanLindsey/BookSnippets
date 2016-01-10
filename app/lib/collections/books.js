@@ -27,9 +27,14 @@ let CollectionSchema = new SimpleSchema({
     label: "Book description",
     optional: true
   },
+  "categories": {
+    type: [String],
+    label: "Array of categories",
+    optional: true
+  },
   "author": {
     type: String,
-    label: "Author Name",
+    label: "Author name",
     optional: true
   },
   "authorID": {

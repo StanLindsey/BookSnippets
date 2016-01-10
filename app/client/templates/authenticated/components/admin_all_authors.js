@@ -6,7 +6,7 @@ Template.adminAllAuthors.onCreated(function () {
 });
 
 Template.adminAllAuthors.helpers({
-  categories: function () {
+  authors: function () {
     return Authors.find();
   }
 });
