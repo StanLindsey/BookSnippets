@@ -1,0 +1,75 @@
+<template name="bookPage">
+  {{#with book}}
+    <div class="ui three column grid">
+      <div class="three column row">
+        <div class="thirteen wide column">
+          <div class="ui two column grid row">
+            <div class="five wide column">
+              <div class="ui card book-card-big" style="overflow:hidden">
+                <div class="image">
+                  <img alt="" src="/{{frontCoverURL}}">
+                </div>
+                <div class="bottom attached ui buttons">
+                  <button class="ui icon button"><i class=" download icon"></i> Download</button>
+                  <button class="ui icon button"><i class="add to cart icon"></i> Purchase</button>
+                </div>
+              </div>
+            </div>
+            <div class="eleven wide column">
+              <div class="row">
+                <h1 class="ui header"> {{title}}
+          <div class="sub header">by {{authorName}}</div>
+          </h1>
+                <audio controls style="width:100%">
+                  <source src="{{snippetURL}}" type="audio/mpeg"> Your browser does not support the audio element.
+                </audio>
+              </div>
+              <div class="ui row basic segment">
+                <p>{{{description}}}</p>
+              </div>
+              <div class="ui bottom basic segment">
+                <button class="ui circular facebook icon button">
+                  <i class="facebook icon"></i>
+                </button>
+                <button class="ui circular twitter icon button">
+                  <i class="twitter icon"></i>
+                </button>
+                <button class="ui circular linkedin icon button">
+                  <i class="linkedin icon"></i>
+                </button>
+                <button class="ui circular google plus icon button">
+                  <i class="google plus icon"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="ui row">
+            <div class="ui right aligned grid">
+              <div class="right floated left aligned thirteen wide column">
+                  <h3>About the Author</h3>
+              </div>
+            </div>
+          </div>
+          <div class="ui row grid">
+            <div class="three wide column">
+              <div class="ui card book-card-big" style="overflow:hidden">
+                <div class="ui image">
+                  <img alt="" src="/{{author.authorImageURL}}">
+                </div>
+              </div>
+            </div>
+            <div class="thirteen wide column">
+              {{{author.bio}}}
+            </div>
+          </div>
+        </div>
+        <div class="three wide column">
+          <div class="row">
+            <h5>More By {{authorName}}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{/with}}
+  {{> categorySlider}}
+</template>

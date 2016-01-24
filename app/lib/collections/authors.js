@@ -30,6 +30,16 @@ let CollectionSchema = new SimpleSchema({
     type: String,
     label: "Author Image URL",
     optional: true
+  },
+  "authorAudioInterviewURL": {
+    type: String,
+    label: "Author Audio Interview URL",
+    optional: true
+  },
+  "authorVideoInterviewURL": {
+    type: String,
+    label: "Author Video Interview URL",
+    optional: true
   }
 
 

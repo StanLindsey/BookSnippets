@@ -4,12 +4,32 @@
 		"selected_items":
 		[
 			[
-				"A",
-				"Authors"
+				"editor",
+				"editorsPicks"
+			],
+			[
+				"publish",
+				"publishDate"
+			],
+			[
+				"categ",
+				"categories	(admin_create_book.js)"
+			],
+			[
+				"cate",
+				"categories	(books.js)"
+			],
+			[
+				"adminAll",
+				"adminAllAuthors	(admin.html)"
 			],
 			[
 				"admin",
-				"adminCreateBook"
+				"adminNav                (obj) [C]"
+			],
+			[
+				"A",
+				"Authors"
 			],
 			[
 				"active",
@@ -304,9 +324,13 @@
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "edit",
+		"last_filter": "create ",
 		"selected_items":
 		[
+			[
+				"create ",
+				"Quick File Creator: Create directory"
+			],
 			[
 				"edit",
 				"PackageResourceViewer: Edit Package Resource"
@@ -420,10 +444,6 @@
 				"Quick File Creator: Create directory"
 			],
 			[
-				"create ",
-				"Quick File Creator: Create file"
-			],
-			[
 				"direct",
 				"Quick File Creator: Create directory"
 			],
@@ -504,7 +524,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 601.0
+		"width": 718.0
 	},
 	"console":
 	{
@@ -528,38 +548,82 @@
 	[
 		"/Users/Stan/Google Drive/Projects/book_snippets",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/collections"
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/views"
 	],
 	"file_history":
 	[
-		"/Users/Stan/Desktop/backend/mailSend.php",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/collections/authors.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/collections/categories.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/collections/books.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/collections/users.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_books.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_books.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/categorySlider.js",
+		"/Users/Stan/Desktop/sdk/view.phtml",
+		"/Users/Stan/Desktop/sdk/default.phtml",
+		"/Users/Stan/Desktop/sdk/system.log",
+		"/Users/Stan/Desktop/sdk/exception.log",
+		"/Users/Stan/Desktop/sdk/index.php",
+		"/Users/Stan/Desktop/sdk/js.phtml",
+		"/Users/Stan/Desktop/sdk/price.phtml",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/book_card_big.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/editors_picks.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/routes/authenticated.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/views/home.html",
+		"/Users/Stan/Desktop/sdk/local.xml",
+		"/Users/Stan/Desktop/sdk/.htaccess",
+		"/Users/Stan/Desktop/sdk/list.phtml",
+		"/Users/Stan/Desktop/sdk/tierprices.phtml",
+		"/Users/Stan/Desktop/sdk/grouped.phtml",
+		"/Users/Stan/Google Drive/SDK/Websites/magento plugins/One.3.0.7/exception.log",
+		"/Users/Stan/Google Drive/Projects/simple-todos-react/simple-todos-react.jsx",
+		"/Users/Stan/Google Drive/Projects/hello_world/app.js",
+		"/Users/Stan/.zshrc",
+		"/Users/Stan/Downloads/magento-1.9.2.2 2/lib/Zend/Locale/Data/zh_Hant.xml",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/fixtures.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/collections/authors.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/categorySlider.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/categorySlider.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/book_card_big.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/views/home.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/collections/books.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_books.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_books.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin_create_book.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin_create_book.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin_create_author.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin_create_author.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/methods/books/insert.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/methods/authors/insert.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/policy.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/collections/categories.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_authors.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin_authors.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_authors.html",
+		"/Users/Stan/Google Drive/Projects/microscope/lib/collections/comments.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/methods/collectionName/insert.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/methods/collectionName/read.js",
+		"/Users/Stan/Google Drive/Projects/meteorTipsTodos/meteorTipsTodos.js",
+		"/Users/Stan/Google Drive/Projects/simple-todos/simple-todos.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/routes/authenticated.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_nav.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_nav.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/publications/all_authors.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/publications/all_books.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_categories.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_categories.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/publications/all_categories.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin_categories.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/helpers/flow_router.js",
+		"/Users/Stan/Desktop/backend/mailSend.php",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/collections/users.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/editors_picks.html",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/layouts/default.html",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/adminCreateBook.html",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/adminCreateBook.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/adminNav.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/book_card_big.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/views/recover_password.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/views/login.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/fixtures.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/createBook.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/signup.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/createBook.html",
 		"/Users/Stan/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/helpers/flow_router.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/modules/reset_password.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/modules/signup.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/globals/header/header.js",
@@ -576,7 +640,6 @@
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/public_navigation.html",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/editors_picks.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/all_books.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/publications/all_books.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/all_books.html",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/publications/editors_picks.js",
 		"/Users/Stan/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
@@ -620,47 +683,7 @@
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/views/home.js",
 		"/Users/Stan/Google Drive/Projects/microscope/lib/router.js",
 		"/Users/Stan/Google Drive/Projects/microscope/server/publications.js",
-		"/Users/Stan/Google Drive/Projects/microscope/server/fixtures.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/startup.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/collections/collection.js",
-		"/Users/Stan/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/Stan/tools/tidy.conf",
-		"/Users/Stan/Desktop/php.ini",
-		"/Users/Stan/Desktop/.htaccess",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/routes/configure.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/views/recover_password.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/views/login.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/startup.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/index.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/publications/template.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/config/book_snippets.sublime-project",
-		"/Users/Stan/Google Drive/Projects/microscope/client/templates/includes/header.html",
-		"/Users/Stan/Google Drive/Projects/microscope/client/templates/includes/header.js",
-		"/Users/Stan/Google Drive/Projects/microscope/client/templates/posts/post_edit.js",
-		"/Users/Stan/Google Drive/Projects/microscope/client/helpers/handlebars.js",
-		"/Users/Stan/Google Drive/Projects/microscope/lib/collections/posts.js",
-		"/Users/Stan/Google Drive/Projects/microscope/client/templates/posts/posts_list.js",
-		"/Users/Stan/Google Drive/Projects/microscope/lib/collections/comments.js",
-		"/Users/Stan/Google Drive/Projects/microscope/lib/collections/notifications.js",
-		"/Users/Stan/Google Drive/Projects/microscope/client/templates/notifications/notifications.html",
-		"/Users/Stan/Google Drive/Projects/microscope/client/templates/notifications/notifications.js",
-		"/Users/Stan/Downloads/web241-datatable (5).sql",
-		"/Users/Stan/Google Drive/SDK/Websites/magento  plugins/category-sidebar-navigation-0.1.3/app/design/frontend/base/default/layout/catsidebarnav.xml",
-		"/Users/Stan/Desktop/catalog.xml",
-		"/Users/Stan/Desktop/local.xml",
-		"/Users/Stan/Desktop/custom.css",
-		"/Users/Stan/Google Drive/SDK/Websites/Ultimo Theme 1.10.3/Resources/Icons_Demo/demo.html",
-		"/Users/Stan/Desktop/core.xml",
-		"/Users/Stan/Google Drive/Projects/microscope/client/templates/posts/post_page.js",
-		"/Users/Stan/Desktop/Category.php",
-		"/Users/Stan/Desktop/2columns-left.phtml",
-		"/Users/Stan/Google Drive/Projects/microscope/client/templates/comments/comment_item.html",
-		"/Users/Stan/Google Drive/Projects/microscope/client/templates/comments/comment_item.js",
-		"/Users/Stan/Google Drive/Projects/microscope/client/templates/posts/post_page.html",
-		"/Users/Stan/Google Drive/Projects/microscope/client/templates/comments/comment_submit.html",
-		"/Users/Stan/Google Drive/Projects/microscope/client/templates/comments/comment_submit.js",
-		"/Users/Stan/Google Drive/Projects/microscope/packages/errors/package.js",
-		"/Users/Stan/Google Drive/Projects/microscope/client/templates/posts/post_submit.js"
+		"/Users/Stan/Google Drive/Projects/microscope/server/fixtures.js"
 	],
 	"find":
 	{
@@ -700,6 +723,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<tr>",
+			"<tr>\n",
+			"super-product-table",
+			"tier",
+			"price",
+			"list",
+			"grid",
+			"actions clear",
+			"$actionsClasses",
+			"arabel",
+			"editorsPicks: true,",
+			"categ",
+			"categories",
+			"amazonUS",
+			"image",
+			"submit",
 			"amazonURL",
 			"form",
 			"'",
@@ -811,23 +850,7 @@
 			"mini-cart-wrapper-reg",
 			"cart-wrapper-",
 			"menu",
-			"mini-cart-wrapper-r",
-			"id=\"nav\"",
-			"menu.",
-			"menu",
-			"miniCartHtml",
-			"menuHtml",
-			"mini-cart-wrapper",
-			"mini-cart",
-			"mini-cart-wrapper-mobile",
-			"mini-cart-wrapper",
-			"cart",
-			"mobile",
-			"#mini-cart",
-			"cart-wrapper",
-			"cart",
-			"mini-cart-wrapper-mobile",
-			"mini-cart-wrapper-regular"
+			"mini-cart-wrapper-r"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -906,6 +929,30 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"authors",
+				"app/lib/collections/authors.js"
+			],
+			[
+				"fix",
+				"app/server/fixtures.js"
+			],
+			[
+				"insert",
+				"app/lib/methods/authors/insert.js"
+			],
+			[
+				"create",
+				"app/client/templates/authenticated/views/admin_create_author.html"
+			],
+			[
+				"methods",
+				"app/lib/methods/collectionName/read.js"
+			],
+			[
+				"cate",
+				"app/lib/collections/categories.js"
+			],
 			[
 				"ed",
 				"app/client/templates/public/components/editors_picks.html"
@@ -1001,10 +1048,6 @@
 			[
 				"big",
 				"app/client/templates/public/components/book_card_big.html"
-			],
-			[
-				"fix",
-				"app/server/fixtures.js"
 			],
 			[
 				"home.",

@@ -30,7 +30,7 @@ Template.adminCreateBook.events({
         shortDescription: event.target.shortDescription.value,
         description: event.target.description.value,
         categories: categories,
-        authorID: event.target.author.value,
+        authorId: event.target.author.value,
         publishDate: new Date(event.target.publishDate.value),
         addedDate: new Date(),
         frontCoverURL: event.target.frontCoverURL.value,

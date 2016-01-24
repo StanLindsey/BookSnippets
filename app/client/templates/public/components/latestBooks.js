@@ -1,4 +1,4 @@
-Template.adminAllBooks.onCreated(function () {
+Template.latestBooks.onCreated(function () {
   let self = this;
   self.autorun(function () {
     self.subscribe('allBooks');
@@ -8,7 +8,7 @@ Template.adminAllBooks.onCreated(function () {
   });
 });
 
-Template.adminAllBooks.helpers({
+Template.latestBooks.helpers({
   books: function () {
     return Books.find();
   },

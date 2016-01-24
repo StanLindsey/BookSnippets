@@ -1,20 +1,20 @@
 <template name="categorySlider">
   <h3>Latest Books</h3>
-  <div class="ui centered cards row">
+  <div class="ui grid centered five cards row">
     {{#each books}}
-      <div class="three wide column">
-        <div class="ui card">
-          <div class="image">
-            <img alt="" src="{{frontCoverURL}}">
-          </div>
-          <div class="content">
-            <h4>{{title}}</h4>
-            <div class="meta">
-              <span>By {{authorName}}</span>
-            </div>
+      <!-- <div class="three wide column"> -->
+      <a class="ui link card" href="/books/{{this._id}}">
+        <div class="small image">
+          <img alt="" src="/{{frontCoverURL}}">
+        </div>
+        <div class="content">
+          <h4>{{title}}</h4>
+          <div class="meta">
+            <span>By {{authorName}}</span>
           </div>
         </div>
-      </div>
+      </a>
+      <!-- </div> -->
     {{/each}}
   </div>
 </template>

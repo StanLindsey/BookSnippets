@@ -1,5 +1,5 @@
 <template name="bookCardBig">
-  <div class="ui card book-card-big" style="overflow:hidden">
+  <a class="ui link card book-card-big" href="/books/{{this._id}}" style="overflow:hidden">
     <div class="image">
       <!--<a class="ui left corner label">
         <i class="bookmark icon"></i>
@@ -22,12 +22,12 @@
       </audio>
     </div>
     <div class="bottom attached ui buttons">
-      <button class="ui icon button">More Info</button>
+      <a href="/books/{{this._id}}" class="ui icon button">More Info</a>
       <!--
             <button class="ui icon button"><i class=" download icon"></i> Download</button>
             <button class="ui icon button"><i class="add to cart icon"></i> Purchase</button>
             <button class="ui icon button"><i class="ellipsis horizontal icon"></i></button>
         -->
     </div>
-  </div>
+  </a>
 </template>

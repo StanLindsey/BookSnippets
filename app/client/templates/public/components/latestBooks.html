@@ -1,0 +1,18 @@
+<template name="latestBooks">
+  <h3>Latest Books</h3>
+  <div class="ui centered five stackable cards row">
+    {{#each books}}
+        <a class="ui link card" href="/books/{{this._id}}">
+          <div class="image">
+            <img alt="" src="/{{frontCoverURL}}">
+          </div>
+          <div class="content">
+            <h4>{{title}}</h4>
+            <div class="meta">
+              <span>By {{authorName}}</span>
+            </div>
+          </div>
+        </a>
+    {{/each}}
+  </div>
+</template>

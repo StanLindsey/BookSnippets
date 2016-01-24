@@ -37,7 +37,7 @@ let CollectionSchema = new SimpleSchema({
     label: "Author name",
     optional: true
   },
-  "authorID": {
+  "authorId": {
     type: String,
     label: "Author ID",
     optional: true

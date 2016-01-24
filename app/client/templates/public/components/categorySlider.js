@@ -10,10 +10,13 @@ Template.categorySlider.onCreated(function () {
 
 Template.categorySlider.helpers({
   books: function () {
-    return Books.find();
-  },
+    return Books.find({},{limit:5});
+  }
+  ,
   authorName: function () {
-    var authorName = Authors.findOne(this.authorID, {fields: {'firstName':1, 'lastName':1}})
-    return authorName.firstName + " " + authorName.lastName;
+    var authorName = Authors.findOne(this.authorId, {fields: {'firstName':1, 'lastName':1}})
+    if (authorName){
+      return authorName.firstName + " " + authorName.lastName;
+    }
   }
 });

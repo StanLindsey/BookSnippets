@@ -6,7 +6,7 @@ const publicRedirect = () => {
 
 const publicRoutes = FlowRouter.group({
   name: 'public',
-  triggersEnter: [ publicRedirect ]
+  //triggersEnter: [ publicRedirect ]
 });
 
 publicRoutes.route( '/', {
@@ -34,5 +34,12 @@ publicRoutes.route( '/reset-password/:token', {
   name: 'reset-password',
   action() {
     BlazeLayout.render( 'default', { yield: 'resetPassword' } );
+  }
+});
+
+publicRoutes.route( '/books/:_id', {
+  name: 'book-page',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'bookPage'} );
   }
 });
