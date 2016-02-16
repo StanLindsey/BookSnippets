@@ -14,6 +14,3 @@ Requires MeteorIO
     </tr>
   </tbody>
 </table>
-
-
-#Patrycja and Ash are super cool
