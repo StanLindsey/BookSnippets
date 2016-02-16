@@ -4,7 +4,19 @@ Template.bookPage.onCreated(function () {
   self.autorun(function () {
     self.subscribe('oneBook', bookId);
   });
+});
 
+Template.bookPage.onRendered(function () {
+  let self = this;
+
+  self.autorun(function () {
+    Template.currentData(); // when changed
+    var audio = self.$('#audio')[0];
+    console.log('test');
+    if (audio) {
+      audio.load();
+    }
+  });
 });
 
 Template.bookPage.helpers({
@@ -28,3 +40,14 @@ Template.bookPage.helpers({
 
   }
 });
+
+
+ // function updateSource() {
+ //        var audio = document.getElementById('audio');
+
+ //        var source = document.getElementById('oggSource');
+ //        source.src='audio/ogg/' + this.parentElement.getAttribute('data-value');
+
+ //        audio.load(); //call this to just preload the audio without playing
+ //        audio.play(); //call this to play the song right away
+ //    }

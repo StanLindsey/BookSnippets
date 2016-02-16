@@ -70,7 +70,7 @@ if (Books.find().count() === 0) {
     frontCoverURL: "covers/thegentlemengoby.jpg",
     snippetURL: "http://files.vobes.com/booksnippet/thegentlemengoby.mp3",
     amazonUKURL: "http://www.amazon.co.uk/gp/product/B00PFZQ0HM/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00PFZQ0HM&linkCode=as2&tag=booksnip-21",
-    editorsPicks: true,
+    editorsPicks: false,
     live: true
   });
 

@@ -1,4 +1,4 @@
-Authors = new Meteor.Collection( 'authors' );
+Authors = new Mongo.Collection( 'authors' );
 
 Authors.allow({
   insert: () => false,
