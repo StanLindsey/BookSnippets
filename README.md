@@ -14,6 +14,3 @@ Requires MeteorIO
     </tr>
   </tbody>
 </table>
-
-Playing around with commit hooks.
-And again.
