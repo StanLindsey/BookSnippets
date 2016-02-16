@@ -15,13 +15,3 @@ Requires MeteorIO
   </tbody>
 </table>
 
-Main differences:
-
-* Replaces SASS for LESS
-* Replaces Twitter Bootstrap for Semantic-UI
-* Reorganises the structure a wee bit
-  * Adds a route app folder
-  * Reorganises templates into views & components
-
-[Read the Meteor Chef:Base Documentation](http://themeteorchef.com/base)
-
