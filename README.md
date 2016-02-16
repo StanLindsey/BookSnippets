@@ -1,11 +1,12 @@
-# slappedUp
-A starting point for Meteor apps, using Semantic-UI. Based on The Meteor Chef's Base. 
+# Book Snippets
+Audio Snippets for books - based on Slapped Up.
+Requires MeteorIO
 
 <table>
   <tbody>
     <tr>
-      <th>slappedUp</th>
-      <td>v1.0.0</td>
+      <th>Book Snippets</th>
+      <td>v0.2</td>
     </tr>
     <tr>
       <th>Meteor Version</th>
