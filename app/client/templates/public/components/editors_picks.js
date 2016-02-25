@@ -1,6 +1,6 @@
 Template.editorsPicks.onCreated(function () {
   const self = this;
-  self.autorun( => {
+  self.autorun(() => {
     self.subscribe('editorsPicks');
   });
 });
