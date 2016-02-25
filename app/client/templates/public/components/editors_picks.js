@@ -1,12 +1,12 @@
 Template.editorsPicks.onCreated(function () {
-  var self = this;
-  self.autorun(function () {
+  const self = this;
+  self.autorun( => {
     self.subscribe('editorsPicks');
   });
 });
 
 Template.editorsPicks.helpers({
-  editorsPicks: function () {
+  editorsPicks() {
     return Books.find({editorsPicks: true}, {limit: 3});
   }
 });
