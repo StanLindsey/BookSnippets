@@ -1,12 +1,12 @@
 # Book Snippets
-Audio Snippets for books - based on Slapped Up.
-Requires MeteorIO
+Audio Snippets for books - built in Meteor.  
+Uses MeteorIO
 
 <table>
   <tbody>
     <tr>
       <th>Book Snippets</th>
-      <td>v0.2</td>
+      <td>v0.2.0</td>
     </tr>
     <tr>
       <th>Meteor Version</th>
