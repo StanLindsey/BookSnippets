@@ -1,4 +1,4 @@
-Template.latestBooks.onCreated(function () {
+Template.latestBooks.onCreated(function() {
   const self = this;
   self.autorun(() => {
     self.subscribe('allBooks');

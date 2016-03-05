@@ -1,7 +1,7 @@
 <template name="categorySlider">
-  <h3>Latest Books</h3>
+  <h3>{{categoryName category}}</h3>
   <div class="ui grid centered five cards row">
-    {{#each books}}
+    {{#each books category}}
       <!-- <div class="three wide column"> -->
       <a class="ui link card" href="/books/{{this._id}}">
         <div class="small image">

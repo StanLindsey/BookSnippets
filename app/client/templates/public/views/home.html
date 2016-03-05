@@ -1,6 +1,9 @@
 <template name="home">
     <div class="ui grid">
         {{> editorsPicks}}
-        {{> latestBooks}}
+        <!--{{> latestBooks}}-->
+        {{#each category in frontpageCategories}}
+            {{> categorySlider category=category.title}}
+        {{/each}}
     </div>
 </template>

@@ -1,22 +1,24 @@
-Template.categorySlider.onCreated(function () {
-  let self = this;
-  self.autorun(function () {
-    self.subscribe('allBooks');
-  });
-  self.autorun(function () {
-    self.subscribe('allAuthors');
-  });
+Template.categorySlider.onCreated(function() {
+    const self = this;
+    self.autorun(() => {
+        self.subscribe('allBooks');
+    });
+    self.autorun(() => {
+        self.subscribe('allAuthors');
+    });
 });
 
 Template.categorySlider.helpers({
-  books: function () {
-    return Books.find({},{limit:5});
-  }
-  ,
-  authorName: function () {
-    var authorName = Authors.findOne(this.authorId, {fields: {'firstName':1, 'lastName':1}})
-    if (authorName){
-      return authorName.firstName + " " + authorName.lastName;
+    categoryName(category){
+      return category
+    },
+    books(category) {
+        return Books.find({categories: category}, { limit: 5 });
+    },
+    authorName() {
+        const authorName = Authors.findOne(this.authorId, { fields: { 'firstName': 1, 'lastName': 1 } })
+        if (authorName) {
+            return `${authorName.firstName} ${authorName.lastName}`;
+        }
     }
-  }
 });
