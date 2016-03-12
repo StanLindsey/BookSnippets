@@ -44,6 +44,13 @@ authenticatedRoutes.route( "/admin/create/book", {
   }
 });
 
+authenticatedRoutes.route( "/admin/edit/book/:_id", {
+  name: "adminEditBook",
+  action() {
+    BlazeLayout.render( "default", { yield: "adminEditBook" } );
+  }
+});
+
 authenticatedRoutes.route( "/admin/create/author", {
   name: "adminCreateAuthor",
   action() {

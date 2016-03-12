@@ -1,8 +1,3 @@
-Template.adminCreateBook.helpers({
-  author: Authors.find(),
-  category: Categories.find()
-});
-
 Template.adminCreateBook.onRendered(function () {
 $(".ui.checkbox").checkbox();
 $("select.dropdown").dropdown();
@@ -16,13 +11,18 @@ let self = this;
 
 });
 
+Template.adminCreateBook.helpers({
+  author: Authors.find(),
+  category: Categories.find()
+});
+
 Template.adminCreateBook.events({
     "submit form": function(event){
       event.preventDefault();
 
       var categories = [];
       for (let i = 0; i<event.target.categories.selectedOptions.length; i++){
-        categories.push(event.target.categories.selectedOptions[i].value);
+        categories.push(event.target.categories.selectedOptions[i].text);
       }
 
       var book = {
