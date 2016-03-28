@@ -9,6 +9,14 @@ Template.categorySlider.onCreated(function() {
 });
 
 Template.categorySlider.helpers({
+    nonEmptyCategory(category){
+        if (Books.find({categories: category}).count() !== 0){
+            return true;
+        } else {
+            return false;
+        }
+
+    },
     categoryName(category){
       return category
     },

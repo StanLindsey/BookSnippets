@@ -1,20 +1,30 @@
+<!--
+A single slide for a category - mostly used on the homepage
+will display 5 books per  category
+ -->
 <template name="categorySlider">
-  <h3>{{categoryName category}}</h3>
+  {{#if nonEmptyCategory category}}
+  <div class="ui divider"></div>
+  <div class="ui row">
+    <h3>{{categoryName category}} Books </h3>
+  </div>
   <div class="ui grid centered five cards row">
     {{#each books category}}
-      <!-- <div class="three wide column"> -->
-      <a class="ui link card" href="/books/{{this._id}}">
-        <div class="small image">
-          <img alt="" src="/{{frontCoverURL}}">
+    <!-- <div class="three wide column"> -->
+    <a class="ui link card" href="/books/{{this._id}}">
+      <div class="small image">
+        <img alt="" src="/{{frontCoverURL}}">
+      </div>
+      <div class="content">
+        <h4>{{title}}</h4>
+        <div class="meta">
+          <span>By {{authorName}}</span>
         </div>
-        <div class="content">
-          <h4>{{title}}</h4>
-          <div class="meta">
-            <span>By {{authorName}}</span>
-          </div>
-        </div>
-      </a>
-      <!-- </div> -->
+      </div>
+    </a>
+    <!-- </div> -->
     {{/each}}
+    <a class="fluid ui blue button">View More {{categoryName category}} Books</a>
   </div>
+  {{/if}}
 </template>
