@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"category",
+				"categorySelected	(admin_edit_book.html)"
+			],
+			[
+				"set",
+				"setTimeout〔function〕"
+			],
+			[
+				"edit",
+				"editorPicksChecked	(admin_edit_book.html)"
+			],
+			[
+				"auth",
+				"authorName"
+			],
+			[
+				"His",
+				"Historical"
+			],
+			[
+				"frontpage",
+				"frontpageCategories"
+			],
+			[
+				"on",
+				"onCreated   (obj) [C]"
+			],
+			[
+				"created",
+				"createdAt"
+			],
+			[
+				"isS",
+				"isServer	(chat.js)"
+			],
+			[
+				"snippet",
+				"snippetURL"
+			],
+			[
 				"cate",
 				"categorySlider"
 			],
@@ -56,10 +96,6 @@
 				"frontPageBooks	(front_page_books.js)"
 			],
 			[
-				"frontpage",
-				"frontPageBooks	(front_page_books.js)"
-			],
-			[
 				"frontPage",
 				"frontPageBooks	(template.js)"
 			],
@@ -68,16 +104,8 @@
 				"frontPageBooks	(template.js)"
 			],
 			[
-				"snippet",
-				"snippetURL	(books.js)"
-			],
-			[
 				"att",
 				"attributes	(tidy.conf)"
-			],
-			[
-				"on",
-				"onRendered  (obj) [C]"
 			],
 			[
 				"Error",
@@ -106,10 +134,6 @@
 			[
 				"comme",
 				"commentCount"
-			],
-			[
-				"isS",
-				"isServer  (bool) [E]"
 			],
 			[
 				"awe",
@@ -260,10 +284,6 @@
 				"insertPlayerData"
 			],
 			[
-				"created",
-				"createdBy"
-			],
-			[
 				"currentU",
 				"currentUserId"
 			],
@@ -323,22 +343,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/Stan/Library/Group Containers/6Z7QW53WB6.com.dejal.timeout/Themes/Stretch.totheme/Info.json",
-			"settings":
-			{
-				"buffer_size": 511,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/Stan/Dropbox/Public/stretchboard/index.html",
-			"settings":
-			{
-				"buffer_size": 7058,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -348,9 +352,29 @@
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "view",
+		"last_filter": "term",
 		"selected_items":
 		[
+			[
+				"term",
+				"Terminal: Open in project folder"
+			],
+			[
+				"git ",
+				"Git: Gui"
+			],
+			[
+				"git di",
+				"Git: Diff All Files"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"enable es",
+				"Snippet: Meteor.renderList(observable, docFunc, [elseFunc])"
+			],
 			[
 				"view",
 				"View In Browser"
@@ -408,10 +432,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"git ",
-				"Git: Status"
-			],
-			[
 				"git com",
 				"Git: Commit"
 			],
@@ -426,10 +446,6 @@
 			[
 				"disable",
 				"Package Control: Disable Package"
-			],
-			[
-				"enable",
-				"Package Control: Enable Package"
 			],
 			[
 				"install pac",
@@ -594,53 +610,118 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Stan/Google Drive/Projects/book_snippets"
+		"/Users/Stan/Google Drive/Projects/book_snippets",
+		"/Users/Stan/Google Drive/Projects/book_snippets/.io",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/methods",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/methods/books",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/routes",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/server",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/publications"
 	],
 	"file_history":
 	[
-		"/Users/Stan/Google Drive/Projects/stretchboard/index.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_authors.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin_create_author.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_nav.js",
+		"/Users/Stan/.zshrc",
+		"/Users/Stan/Google Drive/Projects/book_snippets/.io/config.json",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_categories.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_authors.html",
+		"/Users/Stan/Library/Application Support/Sublime Text 3/Packages/Terminal/Default (OSX).sublime-keymap",
+		"/Users/Stan/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Stan/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_categories.html",
+		"/Users/Stan/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Stan/Desktop/Raspberry pi radio",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin_edit_book.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/methods/books/insert.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin_edit_book.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin_create_book.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_books.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/routes/authenticated.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/routes/public.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin_create_book.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/fixtures.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/collections/books.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/views/book.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_books.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/book_card_big.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/views/home.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/views/home.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/publications/categories.js",
+		"/Users/Stan/.Trash/fixtures (1).js",
+		"/Users/Stan/.eslintrc",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/latestBooks.js",
+		"/Users/Stan/Downloads/fixtures.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/categorySlider.html",
+		"/Users/Stan/Downloads/home.html",
+		"/Users/Stan/Downloads/fixtures (1).js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/categorySlider.js",
+		"/Users/Stan/Downloads/categorySlider.js",
+		"/Users/Stan/Downloads/categorySlider.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/latestBooks.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/publications/editors_picks.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/editors_picks.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/collections/categories.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/book_card_big.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/.meteor/local/build/programs/server/app/server/publications/all_books.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/views/book.html",
+		"/Users/Stan/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/publications/all_categories.js",
+		"/Users/Stan/Google Drive/Projects/chatapp/chat.html",
+		"/Users/Stan/Google Drive/Projects/chatapp/chat.css",
+		"/Users/Stan/Google Drive/Projects/chatapp/chat.js",
+		"/Users/Stan/Google Drive/Projects/chatapp2/chatapp2.html",
+		"/Users/Stan/Google Drive/Projects/chatapp2/chatapp2.css",
+		"/Users/Stan/Google Drive/Projects/chatapp2/chatapp2.js",
+		"/Users/Stan/Google Drive/Projects/chatapp/chatapp.css",
+		"/Users/Stan/Google Drive/SDK/programming/packageCalculator.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/publications/all_books.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/main.html",
+		"/Users/Stan/Desktop/sdk/OrderController.php",
+		"/Users/Stan/Desktop/sdk/app/code/local/SDK/OrderComment/controllers/Adminhtml/Sales/OrderController.php",
+		"/Users/Stan/Desktop/sdk/Order.php",
+		"/Users/Stan/Desktop/sdk/app/code/local/SDK/OrderComment/etc/config.xml",
+		"/Users/Stan/Desktop/sdk/config.xml",
+		"/Users/Stan/Google Drive/Projects/book_snippets/SDK_OrderComment.xml",
+		"/Users/Stan/Google Drive/Projects/microscope/lib/collections/comments.js",
+		"/Users/Stan/Google Drive/Projects/microscope/client/templates/posts/post_item.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/snippet.html",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/snippet.js",
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/methods/books/snippets.js",
+		"/Users/Stan/Google Drive/Projects/microscope/lib/collections/posts.js",
 		"/Users/Stan/Library/Group Containers/6Z7QW53WB6.com.dejal.timeout/Themes/Stretch.totheme/Info.json",
+		"/Users/Stan/Dropbox/Public/stretchboard/index.html",
+		"/Users/Stan/Google Drive/Projects/stretchboard/index.html",
 		"/Users/Stan/Google Drive/Projects/stretchboard/jumbotron.css",
 		"/Users/Stan/Desktop/deskercise/deskercise.html",
 		"/Users/Stan/Library/Group Containers/6Z7QW53WB6.com.dejal.timeout/Themes/Strech.totheme/Info.json",
 		"/Users/Stan/Google Drive/Projects/book_snippets/README.md",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/editors_picks.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/publications/editors_picks.js",
 		"/private/var/folders/6k/9c74bm713bb1w2q3n9zq3ytm0000gp/T/tmpb3o9gu.html",
 		"/Users/Stan/Desktop/sdk/.htaccess",
 		"/Users/Stan/Downloads/hw4-1/facebook.json",
 		"/Users/Stan/Google Drive/Projects/mongoDB for Node Devs/hw3-1/overviewOrTags/overviewOrTags.js",
 		"/private/var/folders/6k/9c74bm713bb1w2q3n9zq3ytm0000gp/T/tmpniyrfq.html",
 		"/Users/Stan/Google Drive/Projects/mongoDB for Node Devs/hw3-1/buildingQueryDocuments/buildingQueryDocuments.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/views/book.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/views/book.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/categorySlider.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/routes/public.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/collections/categories.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/collections/books.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/collections/authors.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/fixtures.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/categorySlider.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/views/home.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/latestBooks.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/book_card_big.html",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/publications/one_book.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/book_card_big.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin_create_book.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_books.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/publications/all_books.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/.meteor/local/build/programs/server/app/server/fixtures.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/publications/all_authors.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/publications/all_categories.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/modules/reset_password.js",
 		"/Users/Stan/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/routes/configure.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/routes/authenticated.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/helpers/flow_router.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/layouts/default.html",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/views/reset_password.html",
 		"/Users/Stan/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/Users/Stan/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
 		"/Users/Stan/Desktop/sdk/view.phtml",
 		"/Users/Stan/Desktop/sdk/default.phtml",
 		"/Users/Stan/Desktop/sdk/system.log",
@@ -655,29 +736,17 @@
 		"/Users/Stan/Google Drive/SDK/Websites/magento plugins/One.3.0.7/exception.log",
 		"/Users/Stan/Google Drive/Projects/simple-todos-react/simple-todos-react.jsx",
 		"/Users/Stan/Google Drive/Projects/hello_world/app.js",
-		"/Users/Stan/.zshrc",
 		"/Users/Stan/Downloads/magento-1.9.2.2 2/lib/Zend/Locale/Data/zh_Hant.xml",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_books.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin_create_book.html",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin_create_author.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin_create_author.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/methods/books/insert.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/methods/authors/insert.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/server/policy.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_authors.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin_authors.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_authors.html",
-		"/Users/Stan/Google Drive/Projects/microscope/lib/collections/comments.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/methods/collectionName/insert.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/methods/collectionName/read.js",
 		"/Users/Stan/Google Drive/Projects/meteorTipsTodos/meteorTipsTodos.js",
 		"/Users/Stan/Google Drive/Projects/simple-todos/simple-todos.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_nav.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_nav.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_categories.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/admin_all_categories.html",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/admin_categories.html",
 		"/Users/Stan/Desktop/backend/mailSend.php",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/lib/collections/users.js",
@@ -685,47 +754,7 @@
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/adminCreateBook.html",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/adminCreateBook.js",
 		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/adminNav.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/views/recover_password.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/views/login.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/createBook.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/signup.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/views/createBook.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/modules/signup.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/globals/header/header.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/modules/recover_password.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/modules/login.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/authenticated_navigation.html",
-		"/Users/Stan/Downloads/magento-1.9.2.2/lib/Zend/OpenId/Extension/Sreg.php",
-		"/Users/Stan/normalMode.scpt",
-		"/Users/Stan/Library/Scripts/minimalMode.scpt",
-		"/Users/Stan/Library/Scripts/DJMode.scpt",
-		"/Users/Stan/DJMode.scpt",
-		"/Users/Stan/Library/Scripts/newfile.scpt",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/globals/header/header.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/public_navigation.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/all_books.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/authenticated/components/all_books.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/.gitignore",
-		"/Applications/Booster.app/Contents/Info.plist",
-		"/Users/Stan/tools/.jshintrc",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/startup.js",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/main.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/config/mup.json",
-		"/Users/Stan/Library/Application Support/Sublime Text 3/Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
-		"/Users/Stan/Library/Application Support/Sublime Text 3/Packages/Theme - Brogrammer/brogrammer.tmTheme",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/globals/not_found.html",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/package.json",
-		"/Users/Stan/Library/Application Support/Sublime Text 3/Packages/Oceanic Next Color Scheme/Oceanic Next.sublime-theme",
-		"/Users/Stan/Library/Application Support/Sublime Text 3/Packages/Theme - Brogrammer/Brogrammer.sublime-theme",
-		"/Users/Stan/Library/Application Support/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
-		"/private/var/folders/6k/9c74bm713bb1w2q3n9zq3ytm0000gp/T/tmpgtj_3m.html",
-		"/Users/Stan/Library/Application Support/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
-		"/opt/homebrew-cask/Caskroom/qlstephen/latest/QLStephen.qlgenerator/Contents/Info.plist",
-		"/opt/homebrew-cask/Caskroom/qlcolorcode/2.0.2/QLColorCode-2.0.2/QLColorCode.qlgenerator/Contents/Info.plist",
-		"/System/Library/QuickLook/Web.qlgenerator/Contents/Info.plist",
-		"/Users/Stan/.vim/colors/onedark.vim",
-		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/components/all_books.js",
-		"/Users/Stan/Google Drive/Projects/.jshintrc"
+		"/Users/Stan/Google Drive/Projects/book_snippets/app/client/templates/public/views/recover_password.js"
 	],
 	"find":
 	{
@@ -736,6 +765,7 @@
 		"height": 95.0,
 		"where_history":
 		[
+			"/Users/Stan/Google Drive/Projects/book_snippets/",
 			"/Users/Stan/Google Drive/Projects/book_snippets/app/lib",
 			"/Users/Stan/Google Drive/Projects/book_snippets/app/client",
 			"/Users/Stan/Google Drive/Projects/book_snippets/app",
@@ -777,6 +807,41 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"z.sh",
+			"z",
+			"adminCreateBook",
+			"allBooks",
+			"allbooks",
+			"box",
+			"20x",
+			"1x OE1100m",
+			"instruct",
+			"200x",
+			"100x",
+			"50x",
+			"30x",
+			"20x",
+			"instruct",
+			".jpg",
+			"2ch",
+			"1ch",
+			"instruct",
+			"200x",
+			"100x",
+			"50x",
+			"30x",
+			"20x",
+			"const",
+			"housden",
+			"houseden",
+			"var",
+			"categor",
+			"addStatusHistoryComment",
+			"comment",
+			"addStatusHistoryComment",
+			"SDK",
+			"RWS",
+			"commentcount",
 			"</p>",
 			"<p>",
 			"h4",
@@ -869,42 +934,7 @@
 			"theme",
 			"ioDes",
 			"</strong>",
-			"<strong>",
-			"style=\"padding:10px\"",
-			"4",
-			"<key>LSItemContentTypes</key>",
-			"<hr>",
-			"hr",
-			"<br />",
-			"60s",
-			"1s",
-			"2s",
-			"60s",
-			"20s",
-			"notice",
-			"twitter",
-			"tweet_template",
-			"#notices",
-			"example1",
-			"tweets",
-			"example1",
-			"tweets",
-			"appendch",
-			"fragment",
-			"Instafeed",
-			"getelementbyId",
-			"instafeed",
-			"\"instafeed-fetcher",
-			"getelementbyId",
-			"@rem",
-			"built by",
-			"h1",
-			"insta",
-			"shedul",
-			"notice",
-			"div",
-			"> div",
-			"notices "
+			"<strong>"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -923,187 +953,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/Stan/Library/Group Containers/6Z7QW53WB6.com.dejal.timeout/Themes/Stretch.totheme/Info.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 511,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								507,
-								507
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"apply_syntax_touched": true,
-							"auto_complete": true,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/Stan/Dropbox/Public/stretchboard/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7058,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4507,
-								4507
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"apply_syntax_touched": true,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1368.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1164,16 +1015,92 @@
 		"selected_items":
 		[
 			[
+				"editbook",
+				"app/client/templates/authenticated/views/admin_edit_book.html"
+			],
+			[
+				"fixture",
+				"app/server/fixtures.js"
+			],
+			[
+				"routes",
+				"app/lib/routes/public.js"
+			],
+			[
+				"rou",
+				"app/lib/routes/authenticated.js"
+			],
+			[
+				"bookcardbig",
+				"app/client/templates/public/components/book_card_big.js"
+			],
+			[
+				"fi",
+				"app/server/fixtures.js"
+			],
+			[
+				"admin",
+				"app/client/templates/authenticated/components/admin_all_books.html"
+			],
+			[
+				"book",
+				"app/client/templates/public/components/latestBooks.js"
+			],
+			[
+				"home.js",
+				"app/client/templates/public/views/home.js"
+			],
+			[
+				"home",
+				"app/client/templates/public/views/home.html"
+			],
+			[
+				"fixtu",
+				"app/server/fixtures.js"
+			],
+			[
+				"home.h",
+				"app/client/templates/public/views/home.html"
+			],
+			[
+				"editorsp",
+				"app/client/templates/public/components/editors_picks.js"
+			],
+			[
+				"editors",
+				"app/server/publications/editors_picks.js"
+			],
+			[
+				"collections",
+				"app/lib/collections/categories.js"
+			],
+			[
+				"fixtures",
+				"app/server/fixtures.js"
+			],
+			[
+				"main",
+				"app/main.html"
+			],
+			[
+				"book.js",
+				"app/client/templates/public/views/book.js"
+			],
+			[
+				"fit",
+				"app/server/fixtures.js"
+			],
+			[
+				"",
+				"app/lib/methods/books/snippets.js"
+			],
+			[
 				"readme",
 				"README.md"
 			],
 			[
 				"editorspic",
 				"app/client/templates/public/components/editors_picks.js"
-			],
-			[
-				"editors",
-				"app/server/publications/editors_picks.js"
 			],
 			[
 				"categor",
@@ -1184,20 +1111,8 @@
 				"app/client/templates/public/components/categorySlider.html"
 			],
 			[
-				"fixtures",
-				"app/server/fixtures.js"
-			],
-			[
 				"fix",
 				"app/server/fixtures.js"
-			],
-			[
-				"book.js",
-				"app/server/publications/one_book.js"
-			],
-			[
-				"",
-				"app/client/templates/public/components/book_card_big.html"
 			],
 			[
 				"reset",
@@ -1244,10 +1159,6 @@
 				"app/lib/routes/authenticated.js"
 			],
 			[
-				"routes",
-				"app/client/helpers/flow_router.js"
-			],
-			[
 				"authna",
 				"app/client/templates/authenticated/components/authenticated_navigation.html"
 			],
@@ -1274,10 +1185,6 @@
 			[
 				"auth",
 				"app/lib/routes/authenticated.js"
-			],
-			[
-				"admin",
-				"app/client/templates/authenticated/admin.html"
 			],
 			[
 				"pub",
@@ -1320,10 +1227,6 @@
 				"app/server/publications/all_books.js"
 			],
 			[
-				"home",
-				"app/client/templates/public/views/home.html"
-			],
-			[
 				"big",
 				"app/client/templates/public/components/book_card_big.html"
 			],
@@ -1334,14 +1237,6 @@
 			[
 				"style",
 				"app/client/stylesheets/style.less"
-			],
-			[
-				"bookcardbig",
-				"app/client/templates/public/components/book_card_big.js"
-			],
-			[
-				"book",
-				"app/client/templates/public/components/book_card_big.html"
 			],
 			[
 				"nav",
@@ -1528,17 +1423,21 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/Google Drive/Projects/SDKBackend/SDKBackend.sublime-project"
+			]
 		],
 		"width": 380.0
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 400.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 601.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -1548,7 +1447,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 274.0,
+	"side_bar_width": 295.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
