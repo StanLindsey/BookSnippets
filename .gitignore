@@ -3,3 +3,4 @@ prod-settings.json
 npm-debug.log
 mup.json
 book_snippets.sublime-workspace
+book_snippets.sublime-project
